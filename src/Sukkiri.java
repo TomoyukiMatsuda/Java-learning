@@ -1,6 +1,7 @@
+import java.util.Comparator;
 
-
-public class Sukkiri {
+// TODO: 1.5 Comparable を学びたい
+public class Sukkiri implements Comparable, Comparator {
   public static void main(String[] args) {
     FuncList funcList = new FuncList();
     
@@ -8,6 +9,16 @@ public class Sukkiri {
     Func2 f2 = funcList::passCheck;
     System.out.println(f1.call(30));
     System.out.println(f2.call(68, "ともゆき"));
+  }
+  
+  @Override
+  public int compareTo(Object o) {
+    return 0;
+  }
+  
+  @Override
+  public int compare(Object o1, Object o2) {
+      return 0;
   }
 }
 
