@@ -8,7 +8,11 @@ public class Factory {
   
     // ラムダ式　Sample型をリターンすることが決まっている、かつ Sample は関数型インターフェース（実装メソッドを一つしか持っていない）
     // だから、execute() の処理内容だけわかればOKの状態
-    return () -> System.out.println("ラムダ式");
+    return () -> System.out.println("ラムダ式"); // ↓と同じこと
+//    Sample sample = () -> {
+//      System.out.println("ラムダ式");
+//    };
+//    return sample;
     
     // インターフェース をインスタンス化
     //return new Sample() {
