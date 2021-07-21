@@ -3,8 +3,6 @@ package Lamda;
 import Lamda.Sample.Factory;
 import Lamda.Sample.Sample;
 
-// todo ラムダ式8
-//  https://www.youtube.com/watch?v=xj-IGnqH4EY&list=PL0BiAlg8j4Zu_XVmBIq2DTSP8LdRWSjwV&index=8
 // Mainクラスは Sample しか見ないようにしたい
 public class Main {
   public static void main(String[] args) {
